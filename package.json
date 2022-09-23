@@ -4,13 +4,17 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "dev": "nodemon node ./bin/www"
+    "dev_ocr": "nodemon node ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
+    "image-check": "^0.1.5",
+    "image-exists": "^1.1.0",
+    "image-url-validator": "^1.0.4",
+    "img-exists": "^1.0.2",
     "jade": "~1.11.0",
     "morgan": "~1.9.1",
     "nodemon": "^2.0.20",
